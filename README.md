@@ -36,13 +36,13 @@ for i in range(1,31):
 Escribir un programa en Python que multiplique los 20 primeros número naturales
 (1*2*3*4*5...).
 """
-multi=1
+multi = 1
 for i in range(21):
-    if i<20:
-        multi=multi*(i+1)
-    elif i==20:
-        multi=multi*(i+1)
-        print ("Resultado: ",multi)
+    if i < 20:
+        multi = multi*(i+1)
+    elif i == 20:
+        multi = multi*(i+1)
+        print("Resultado: ", multi)
         break
 
 ![alt text](<Screenshot 2025-09-03 at 23.24.18.png>)
@@ -51,13 +51,14 @@ for i in range(21):
 Escribir un programa en Python que sume los cuadrados de los cien primeros números
 naturales, mostrando el resultado en pantalla. 
 
-numero=0
-suma=0
+numero = 0
+suma = 0
 
-while numero<100:
-    numero=numero+1
-    suma=(numero**2)+suma
-print(suma)
+while numero < 100:
+    numero = numero+1
+    suma = (numero**2)+suma
+print(
+    f"La suma de los cuadrados de los cien primeros números naturales es: {suma}")
 
 ![alt text](<Screenshot 2025-09-03 at 23.19.25.png>)
 
@@ -66,9 +67,9 @@ print(suma)
 Escribir un programa en Java que calcule el área de un rectángulo del cual se le
 proporcionará por el teclado su altura y anchura (números decimales).
 """
-base=float(input("Ingrese la base del rectángulo: "))
-altura=float(input("Ingrese la altura del rectángulo: "))
-area=base*altura
+base = float(input("Ingrese la base del rectángulo: "))
+altura = float(input("Ingrese la altura del rectángulo: "))
+area = base*altura
 print(f"El área del rectángulo es: {area}")
 
 ![alt text](<Screenshot 2025-09-03 at 23.43.30.png>)
@@ -78,12 +79,11 @@ print(f"El área del rectángulo es: {area}")
 Escribir un programa en Java que lea dos números del teclado y diga cual es el
 mayor y cual el menor.
 """
-""
-num1=float(input("Ingrese un número: "))
-num2=float(input("Ingrese el número con el que quiere comparar: "))
-if num1>num2:
+num1 = float(input("Ingrese un número: "))
+num2 = float(input("Ingrese el número con el que quiere comparar: "))
+if num1 > num2:
     print(f"El número {num1} es mayor que {num2}")
-elif num1<num2:
+elif num1 < num2:
     print(f"El número {num1} es menor que {num2}")
 else:
     print(f"El número {num1} es igual que {num2}")
